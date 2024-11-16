@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testpod-2"
+  annotations:
+    "humanitec.com/orgId": "flo24-platform-engineering-bootcamp"
+    "humanitec.com/appId": "testpod-2"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
